@@ -41,6 +41,9 @@ This will change the server port to `9090`. You can also add other properties as
 
 To run the application from docker, follow these steps:
 ```sh
-docker pull ghcr.io/marcelloraffaele/spring-boot-demo:latest
-docker run -p 8080:8080 ghcr.io/marcelloraffaele/spring-boot-demo:latest
+docker pull ghcr.io/marcelloraffaele/notes-api:latest
+docker run -p 8080:8080 ghcr.io/marcelloraffaele/notes-api:latest
 ```
+
+The application will start and be accessible at `http://localhost:8080`.
+The swagger UI will be accessible at `http://localhost:8080/swagger-ui/index.html`
