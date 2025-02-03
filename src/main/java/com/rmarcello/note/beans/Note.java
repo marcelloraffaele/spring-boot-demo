@@ -1,4 +1,4 @@
-package com.rmarcello.demo.beans;
+package com.rmarcello.note.beans;
 
 import java.util.List;
 

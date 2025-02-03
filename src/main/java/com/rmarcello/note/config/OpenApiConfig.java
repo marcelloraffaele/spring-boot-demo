@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package com.rmarcello.note.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
@@ -11,8 +11,8 @@ public class OpenApiConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
             .info(new Info()
-                .title("Spring Boot Demo API")
+                .title("Note API")
                 .version("1.0")
-                .description("API documentation for Spring Boot Demo application"));
+                .description("API documentation for Note API application"));
     }
 }

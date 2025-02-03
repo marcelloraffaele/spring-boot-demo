@@ -1,7 +1,8 @@
-package com.rmarcello.demo.service;
+package com.rmarcello.note.service;
 
-import com.rmarcello.demo.beans.Note;
 import org.springframework.stereotype.Service;
+
+import com.rmarcello.note.beans.Note;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,8 +1,10 @@
 package com.rmarcello.demo.service;
 
-import com.rmarcello.demo.beans.Note;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import com.rmarcello.note.beans.Note;
+import com.rmarcello.note.service.NoteService;
 
 import java.util.Arrays;
 import java.util.List;

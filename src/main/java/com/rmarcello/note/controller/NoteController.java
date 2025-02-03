@@ -1,7 +1,5 @@
-package com.rmarcello.demo.controller;
+package com.rmarcello.note.controller;
 
-import com.rmarcello.demo.beans.Note;
-import com.rmarcello.demo.service.NoteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,6 +8,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.rmarcello.note.beans.Note;
+import com.rmarcello.note.service.NoteService;
 
 import java.util.List;
 
