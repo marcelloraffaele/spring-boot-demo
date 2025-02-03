@@ -1,11 +1,11 @@
-package com.rmarcello.spring_boot_demo.controller;
+package com.rmarcello.demo.controller;
 
-import com.rmarcello.spring_boot_demo.beans.Note;
-import com.rmarcello.spring_boot_demo.service.NoteService;
+import com.rmarcello.demo.beans.Note;
+import com.rmarcello.demo.service.NoteService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/notes")

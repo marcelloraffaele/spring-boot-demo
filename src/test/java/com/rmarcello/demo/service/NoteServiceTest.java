@@ -1,6 +1,6 @@
-package com.rmarcello.spring_boot_demo.service;
+package com.rmarcello.demo.service;
 
-import com.rmarcello.spring_boot_demo.beans.Note;
+import com.rmarcello.demo.beans.Note;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
