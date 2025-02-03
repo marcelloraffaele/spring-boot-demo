@@ -1,4 +1,4 @@
-package com.rmarcello.spring_boot_demo;
+package com.rmarcello.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
