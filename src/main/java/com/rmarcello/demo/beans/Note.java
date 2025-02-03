@@ -1,6 +1,5 @@
 package com.rmarcello.demo.beans;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class Note implements Comparable<Note> {
@@ -14,7 +13,56 @@ public class Note implements Comparable<Note> {
         this.id = id;
         this.title = title;
         this.content = content;
+        if(labels == null) {
+            this.labels = List.of();
+        } else {
+            this.labels = labels;
+        }
+        if(urls == null) {
+            this.urls = List.of();
+        } else {
+            this.urls = urls;
+        }
+        
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public List<String> getLabels() {
+        return labels;
+    }
+
+    public void setLabels(List<String> labels) {
         this.labels = labels;
+    }
+
+    public List<String> getUrls() {
+        return urls;
+    }
+
+    public void setUrls(List<String> urls) {
         this.urls = urls;
     }
 
