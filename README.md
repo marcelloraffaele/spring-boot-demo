@@ -35,3 +35,12 @@ server.port=9090
 ```
 
 This will change the server port to `9090`. You can also add other properties as needed.
+
+
+## Use it from docker
+
+To run the application from docker, follow these steps:
+```sh
+docker pull ghcr.io/marcelloraffaele/spring-boot-demo:latest
+docker run -p 8080:8080 ghcr.io/marcelloraffaele/spring-boot-demo:latest
+```
