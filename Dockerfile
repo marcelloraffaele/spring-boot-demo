@@ -1,5 +1,5 @@
 # Use openjdk:21-jdk-alpine as the base image
-FROM mcr.microsoft.com/openjdk/jdk:21-ubuntu
+FROM eclipse-temurin:21.0.6_7-jre-ubi9-minimal
 
 # Set the working directory
 WORKDIR /app
