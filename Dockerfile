@@ -1,5 +1,5 @@
 # Use openjdk:21-jdk-alpine as the base image
-FROM openjdk:21-jdk-alpine
+FROM mcr.microsoft.com/openjdk/jdk:21-ubuntu
 
 # Set the working directory
 WORKDIR /app
