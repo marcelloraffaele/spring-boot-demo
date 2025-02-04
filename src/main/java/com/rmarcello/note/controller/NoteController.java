@@ -41,4 +41,9 @@ public class NoteController {
         noteService.remove(id);
     }
 
+    @GetMapping("/label/{label}")
+    public List<Note> getNotesByLabel(@PathVariable String label) {
+        return noteService.getByLabel(label);
+    }
+
 }
